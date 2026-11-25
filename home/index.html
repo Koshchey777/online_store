@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            background: #040f20;
+            color: #cccccc;
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar .nav-link {
+            color: #cccccc;
+        }
+        .dropdown-item:hover {
+            background-color: #4a4a4a;
+            color: #cccccc;
+        }
+        .index-formatting {
+            background: #0f5132;
+            border-radius: 5px;
+
+        }
+        .text-formatting {
+            background: #4a4a4a;
+            color: #cccccc;
+        }
+        .a {
+            text-decoration: none;
+            color: #cccccc;
+        }
+        .element-menu {
+            margin-top: 20px
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-3 sidebar">
+        <div class="d-flex element-menu">
+          <div class="flex-shrink-0">
+            <img src="../data/menu.png" alt="" style="height: 1.4em; vertical-align: middle; margin: 5px">
+          </div>
+          <div class="flex-grow-1 ms-1">
+            <h4>Меню</h4>
+          </div>
+        </div>
+        <hr style="width: 140px;">
+        <div class="container">
+          <div class="row align-items-center index-formatting">
+            <div class="col-auto">
+                <img src="../data/index.png" alt="" style="height: 1.2em;">
+            </div>
+            <div class="col index-formatting"><a href="#" class="a">Главная</a></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-auto">
+                <img src="../data/category.png" alt="" style="height: 1em;">
+            </div>
+            <div class="col"><a href="#" class="a">Категории</a></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-auto">
+                <img src="../data/orders.png" alt="" style="height: 1.2em;">
+            </div>
+            <div class="col"><a href="#" class="a">Заказы</a></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-auto">
+                <img src="../data/contact.PNG" alt="" style="height: 1.2em;">
+            </div>
+            <div class="col"><a href="#" class="a">Контакты</a></div>
+          </div>
+        </div>
+        <div class="mt-auto px-3 pb-3">
+            <ul class="nav">
+              <li class="nav-item dropdown text-formatting">
+                  <a class="nav-link dropdown-toggle text-formatting" href="#" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">
+                    Пользователь
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end text-formatting">
+                    <li><a class="dropdown-item" href="#">Профиль</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Выход</a></li>
+                  </ul>
+              </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.sidebar {
+    min-height: 100vh;
+    background: #040f20;
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .nav-link {
+    color: #cccccc;
+}
+.dropdown-item:hover {
+    background-color: #4a4a4a;
+    color: #cccccc;
+}
+.index-formatting {
+    background: #0f5132;
+    border-radius: 5px;
+
+}
+.text-formatting {
+    background: #4a4a4a;
+    color: #cccccc;
+}
+.a {
+    text-decoration: none;
+    color: #cccccc;
+}
+.element-menu {
+    margin-top: 20px
+}
+.index-icon {
+    height: 1.4em;
+    vertical-align: middle;
+    margin: 5px
+}
+.icon {
+    height: 1.2em;
+}
